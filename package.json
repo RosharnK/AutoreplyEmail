@@ -1,0 +1,22 @@
+{
+  "name": "emailauto",
+  "version": "1.0.0",
+  "description": "This is an email auto reply app developed on node js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "RDEV",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.9.0",
+    "googleapis": "^120.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
